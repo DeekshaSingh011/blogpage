@@ -21,6 +21,14 @@
             border:2px solid aqua;
 
         }
+        .abc
+        {
+            color:blue;
+        }
+        .def
+        {
+            color:black;
+        }
      </style>
         
 </head>
@@ -672,23 +680,25 @@
     <p>
         Along with canMove and makeMove, we are using methods puzzleSolved and printBoard with meanings that should be obvious.<br><br>
         Here is some output from the program:
-        <ol reversed>
-            <b>
-                <li> WHITE WHITE WHITE _______ BLACK BLACK BLACK</li>
-                <li> WHITE WHITE WHITE BLACK _______ BLACK BLACK</li>
-                <li> WHITE WHITE _______ BLACK WHITE BLACK BLACK</li>
-                <li> WHITE _______ WHITE BLACK WHITE BLACK BLACK</li>
-                <li> WHITE BLACK WHITE _______ WHITE BLACK BLACK</li>
-                <li> WHITE BLACK WHITE BLACK WHITE _______ BLACK</li>
-                <li> WHITE BLACK WHITE BLACK WHITE BLACK _______</li>
-                <li> WHITE BLACK WHITE BLACK _______ BLACK WHITE</li>
-                <li> _______ BLACK WHITE BLACK WHITE BLACK WHITE</li>
-                <li>BLACK _______ WHITE BLACK WHITE BLACK WHITE</li>
-                <li>BLACK BLACK WHITE BLACK _______ WHITE WHITE</li>
-                <li>BLACK BLACK _______ BLACK WHITE WHITE WHITE</li>
-                <li>BLACK BLACK BLACK _______ WHITE WHITE WHITE</li>
-            </b>
-        </ol>
+        <div class="abc">
+            <ol reversed >
+                <b>
+                    <li><div class="def"> WHITE WHITE WHITE _______ BLACK BLACK BLACK</div></li>
+                    <li> <div class="def"> WHITE WHITE WHITE BLACK _______ BLACK BLACK</div></li>
+                    <li><div class="def">WHITE WHITE _______ BLACK WHITE BLACK BLACK</div></li>
+                    <li> <div class="def">WHITE _______ WHITE BLACK WHITE BLACK BLACK</div></li>
+                    <li><div class="def"> WHITE BLACK WHITE _______ WHITE BLACK BLACK</div></li>
+                    <li><div class="def">WHITE BLACK WHITE BLACK WHITE _______ BLACK</div></li>
+                    <li><div class="def">WHITE BLACK WHITE BLACK WHITE BLACK _______</div></li>
+                    <li><div class="def">WHITE BLACK WHITE BLACK _______ BLACK WHITE</div></li>
+                    <li><div class="def">_______ BLACK WHITE BLACK WHITE BLACK WHITE</div></li>
+                    <li><div class="def">BLACK _______ WHITE BLACK WHITE BLACK WHITE</div></li>
+                    <li><div class="def">BLACK BLACK WHITE BLACK _______ WHITE WHITE</div></li>
+                    <li><div class="def">BLACK BLACK _______ BLACK WHITE WHITE WHITE</div></li>
+                    <li><div class="def">BLACK BLACK BLACK _______ WHITE WHITE WHITE</div></li>
+                </b>
+            </ol>
+        </div>
     </p>
     <span>
         Notice that the solution is given in reverse order: BLACK starts out on the left and WHITE on the right, as in the last line. I've 
